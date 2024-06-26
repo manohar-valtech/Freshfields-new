@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.fileproviders.embedded\6.0.2\build\netstandard2.0\Microsoft.Extensions.FileProviders.Embedded.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.fileproviders.embedded\6.0.2\build\netstandard2.0\Microsoft.Extensions.FileProviders.Embedded.targets')" />
+    <Import Project="$(NuGetPackageRoot)geta.optimizely.sitemaps\3.1.2\build\net6.0\Geta.Optimizely.Sitemaps.targets" Condition="Exists('$(NuGetPackageRoot)geta.optimizely.sitemaps\3.1.2\build\net6.0\Geta.Optimizely.Sitemaps.targets')" />
+    <Import Project="$(NuGetPackageRoot)episerver.cms.ui.settings\12.29.1\build\net6.0\EPiServer.Cms.UI.Settings.targets" Condition="Exists('$(NuGetPackageRoot)episerver.cms.ui.settings\12.29.1\build\net6.0\EPiServer.Cms.UI.Settings.targets')" />
+    <Import Project="$(NuGetPackageRoot)episerver.cms.ui.admin\12.29.1\build\net6.0\EPiServer.Cms.UI.Admin.targets" Condition="Exists('$(NuGetPackageRoot)episerver.cms.ui.admin\12.29.1\build\net6.0\EPiServer.Cms.UI.Admin.targets')" />
+    <Import Project="$(NuGetPackageRoot)episerver.cms.ui\12.29.1\build\net6.0\EPiServer.Cms.UI.targets" Condition="Exists('$(NuGetPackageRoot)episerver.cms.ui\12.29.1\build\net6.0\EPiServer.Cms.UI.targets')" />
+    <Import Project="$(NuGetPackageRoot)episerver.cms.tinymce\4.7.2\build\net6.0\Episerver.Cms.TinyMce.targets" Condition="Exists('$(NuGetPackageRoot)episerver.cms.tinymce\4.7.2\build\net6.0\Episerver.Cms.TinyMce.targets')" />
+    <Import Project="$(NuGetPackageRoot)episerver.forms.ui\5.8.2\build\net6.0\EPiServer.Forms.UI.targets" Condition="Exists('$(NuGetPackageRoot)episerver.forms.ui\5.8.2\build\net6.0\EPiServer.Forms.UI.targets')" />
+    <Import Project="$(NuGetPackageRoot)episerver.forms\5.8.2\build\net6.0\EPiServer.Forms.targets" Condition="Exists('$(NuGetPackageRoot)episerver.forms\5.8.2\build\net6.0\EPiServer.Forms.targets')" />
+    <Import Project="$(NuGetPackageRoot)episerver.cms.ui.visitorgroups\12.29.1\build\net6.0\EPiServer.Cms.UI.VisitorGroups.targets" Condition="Exists('$(NuGetPackageRoot)episerver.cms.ui.visitorgroups\12.29.1\build\net6.0\EPiServer.Cms.UI.VisitorGroups.targets')" />
+  </ImportGroup>
+</Project>
