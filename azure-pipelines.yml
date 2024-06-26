@@ -1,0 +1,64 @@
+# ASP.NET Core (.NET Framework)
+# Build and test ASP.NET Core projects targeting the full .NET Framework.
+# Add steps that publish symbols, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+
+trigger:
+- develop
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+
+steps:
+- task: Npm@1
+  displayName: npm install
+  inputs:
+    command: 'install'
+    workingDir: 'src/Freshfields.Website/ClientApp'
+
+- task: Npm@1
+  displayName: npm run build
+  inputs:
+    command: 'custom'
+    customCommand: 'run build'
+    workingDir: 'src/Freshfields.Website/ClientApp'
+
+- task: NuGetToolInstaller@1
+
+- task: NuGetCommand@2
+  inputs:
+    restoreSolution: '$(solution)'
+    selectOrConfig: config
+    nugetConfigPath: src/nuget.config
+
+#- task: SonarQubePrepare@5
+#  inputs:
+#    SonarQube: 'SonarQube'
+#    scannerMode: 'MSBuild'
+#    projectKey: 'AMER.DXP.Freshfields'
+#    projectName: 'Freshfields'
+
+- task: VSBuild@1
+  inputs:
+    solution: '$(solution)'
+    msbuildArgs: '/t:Clean,Build'
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+
+- task: VSTest@2
+  inputs:
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+
+#- task: SonarQubeAnalyze@5
+#  inputs:
+#    jdkversion: 'JAVA_HOME_17_X64'
+
+#- task: SonarQubePublish@5
+#  inputs:
+#    pollingTimeoutSec: '300'
