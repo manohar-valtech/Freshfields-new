@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\mcysr\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.10.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\mcysr\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)episerver.cms.ui.settings\12.29.1\contentFiles\any\any\modules\_protected\EPiServer.Cms.UI.Settings\EPiServer.Cms.UI.Settings.zip" Condition="Exists('$(NuGetPackageRoot)episerver.cms.ui.settings\12.29.1\contentFiles\any\any\modules\_protected\EPiServer.Cms.UI.Settings\EPiServer.Cms.UI.Settings.zip')">
+      <NuGetPackageId>EPiServer.CMS.UI.Settings</NuGetPackageId>
+      <NuGetPackageVersion>12.29.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>modules\_protected\EPiServer.Cms.UI.Settings\EPiServer.Cms.UI.Settings.zip</TargetPath>
+      <DestinationSubDirectory>modules\_protected\EPiServer.Cms.UI.Settings\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>modules\_protected\EPiServer.Cms.UI.Settings\EPiServer.Cms.UI.Settings.zip</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)episerver.cms.ui.admin\12.29.1\contentFiles\any\any\modules\_protected\EPiServer.Cms.UI.Admin\EPiServer.Cms.UI.Admin.zip" Condition="Exists('$(NuGetPackageRoot)episerver.cms.ui.admin\12.29.1\contentFiles\any\any\modules\_protected\EPiServer.Cms.UI.Admin\EPiServer.Cms.UI.Admin.zip')">
+      <NuGetPackageId>EPiServer.CMS.UI.Admin</NuGetPackageId>
+      <NuGetPackageVersion>12.29.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>modules\_protected\EPiServer.Cms.UI.Admin\EPiServer.Cms.UI.Admin.zip</TargetPath>
+      <DestinationSubDirectory>modules\_protected\EPiServer.Cms.UI.Admin\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>modules\_protected\EPiServer.Cms.UI.Admin\EPiServer.Cms.UI.Admin.zip</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)episerver.cms.ui\12.29.1\contentFiles\any\any\modules\_protected\CMS\CMS.zip" Condition="Exists('$(NuGetPackageRoot)episerver.cms.ui\12.29.1\contentFiles\any\any\modules\_protected\CMS\CMS.zip')">
+      <NuGetPackageId>EPiServer.CMS.UI</NuGetPackageId>
+      <NuGetPackageVersion>12.29.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>modules\_protected\CMS\CMS.zip</TargetPath>
+      <DestinationSubDirectory>modules\_protected\CMS\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>modules\_protected\CMS\CMS.zip</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)episerver.cms.ui\12.29.1\contentFiles\any\any\modules\_protected\Shell\Shell.zip" Condition="Exists('$(NuGetPackageRoot)episerver.cms.ui\12.29.1\contentFiles\any\any\modules\_protected\Shell\Shell.zip')">
+      <NuGetPackageId>EPiServer.CMS.UI</NuGetPackageId>
+      <NuGetPackageVersion>12.29.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>modules\_protected\Shell\Shell.zip</TargetPath>
+      <DestinationSubDirectory>modules\_protected\Shell\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>modules\_protected\Shell\Shell.zip</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)episerver.cms.tinymce\4.7.2\contentFiles\any\any\modules\_protected\EPiServer.Cms.TinyMce\EPiServer.Cms.TinyMce.zip" Condition="Exists('$(NuGetPackageRoot)episerver.cms.tinymce\4.7.2\contentFiles\any\any\modules\_protected\EPiServer.Cms.TinyMce\EPiServer.Cms.TinyMce.zip')">
+      <NuGetPackageId>EPiServer.CMS.TinyMce</NuGetPackageId>
+      <NuGetPackageVersion>4.7.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>modules\_protected\EPiServer.Cms.TinyMce\EPiServer.Cms.TinyMce.zip</TargetPath>
+      <DestinationSubDirectory>modules\_protected\EPiServer.Cms.TinyMce\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>modules\_protected\EPiServer.Cms.TinyMce\EPiServer.Cms.TinyMce.zip</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)episerver.forms.ui\5.8.2\contentFiles\any\any\modules\_protected\EPiServer.Forms.UI\EPiServer.Forms.UI.zip" Condition="Exists('$(NuGetPackageRoot)episerver.forms.ui\5.8.2\contentFiles\any\any\modules\_protected\EPiServer.Forms.UI\EPiServer.Forms.UI.zip')">
+      <NuGetPackageId>EPiServer.Forms.UI</NuGetPackageId>
+      <NuGetPackageVersion>5.8.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>modules\_protected\EPiServer.Forms.UI\EPiServer.Forms.UI.zip</TargetPath>
+      <DestinationSubDirectory>modules\_protected\EPiServer.Forms.UI\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>modules\_protected\EPiServer.Forms.UI\EPiServer.Forms.UI.zip</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)episerver.forms\5.8.2\contentFiles\any\any\modules\_protected\EPiServer.Forms\EPiServer.Forms.zip" Condition="Exists('$(NuGetPackageRoot)episerver.forms\5.8.2\contentFiles\any\any\modules\_protected\EPiServer.Forms\EPiServer.Forms.zip')">
+      <NuGetPackageId>EPiServer.Forms</NuGetPackageId>
+      <NuGetPackageVersion>5.8.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>modules\_protected\EPiServer.Forms\EPiServer.Forms.zip</TargetPath>
+      <DestinationSubDirectory>modules\_protected\EPiServer.Forms\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>modules\_protected\EPiServer.Forms\EPiServer.Forms.zip</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)episerver.cms.ui.visitorgroups\12.29.1\contentFiles\any\any\modules\_protected\EPiServer.Cms.UI.VisitorGroups\EPiServer.Cms.UI.VisitorGroups.zip" Condition="Exists('$(NuGetPackageRoot)episerver.cms.ui.visitorgroups\12.29.1\contentFiles\any\any\modules\_protected\EPiServer.Cms.UI.VisitorGroups\EPiServer.Cms.UI.VisitorGroups.zip')">
+      <NuGetPackageId>EPiServer.CMS.UI.VisitorGroups</NuGetPackageId>
+      <NuGetPackageVersion>12.29.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>modules\_protected\EPiServer.Cms.UI.VisitorGroups\EPiServer.Cms.UI.VisitorGroups.zip</TargetPath>
+      <DestinationSubDirectory>modules\_protected\EPiServer.Cms.UI.VisitorGroups\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>modules\_protected\EPiServer.Cms.UI.VisitorGroups\EPiServer.Cms.UI.VisitorGroups.zip</Link>
+    </None>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.sourcelink.common\8.0.0\build\Microsoft.SourceLink.Common.props" Condition="Exists('$(NuGetPackageRoot)microsoft.sourcelink.common\8.0.0\build\Microsoft.SourceLink.Common.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.build.tasks.git\8.0.0\build\Microsoft.Build.Tasks.Git.props" Condition="Exists('$(NuGetPackageRoot)microsoft.build.tasks.git\8.0.0\build\Microsoft.Build.Tasks.Git.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.sourcelink.github\8.0.0\build\Microsoft.SourceLink.GitHub.props" Condition="Exists('$(NuGetPackageRoot)microsoft.sourcelink.github\8.0.0\build\Microsoft.SourceLink.GitHub.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.fileproviders.embedded\6.0.2\build\netstandard2.0\Microsoft.Extensions.FileProviders.Embedded.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.fileproviders.embedded\6.0.2\build\netstandard2.0\Microsoft.Extensions.FileProviders.Embedded.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_SourceLink_Common Condition=" '$(PkgMicrosoft_SourceLink_Common)' == '' ">C:\Users\mcysr\.nuget\packages\microsoft.sourcelink.common\8.0.0</PkgMicrosoft_SourceLink_Common>
+    <PkgMicrosoft_Build_Tasks_Git Condition=" '$(PkgMicrosoft_Build_Tasks_Git)' == '' ">C:\Users\mcysr\.nuget\packages\microsoft.build.tasks.git\8.0.0</PkgMicrosoft_Build_Tasks_Git>
+    <PkgMicrosoft_SourceLink_GitHub Condition=" '$(PkgMicrosoft_SourceLink_GitHub)' == '' ">C:\Users\mcysr\.nuget\packages\microsoft.sourcelink.github\8.0.0</PkgMicrosoft_SourceLink_GitHub>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\mcysr\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgEPiServer_Framework Condition=" '$(PkgEPiServer_Framework)' == '' ">C:\Users\mcysr\.nuget\packages\episerver.framework\12.21.2</PkgEPiServer_Framework>
+    <PkgEPiServer_CMS_Core Condition=" '$(PkgEPiServer_CMS_Core)' == '' ">C:\Users\mcysr\.nuget\packages\episerver.cms.core\12.21.2</PkgEPiServer_CMS_Core>
+  </PropertyGroup>
+</Project>
